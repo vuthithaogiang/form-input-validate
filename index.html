@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form inout Log In</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="#" id="signup" class="form">
+            <div class="content">
+                <h1>Create Account </h1>
+                <p style="text-align: center">Get started your free account</p>
+            </div>
+            <div class="social">
+                <div class="twitter">
+                    <i class="fa-brands fa-twitter" style="color:white; font-size: 25px;"></i>
+                    <p style="font-size: 14px; color: white">sign via twitter</p>
+                </div>
+                <div class="facebook">
+                    <i class="fa-brands fa-facebook" style="color:white; font-size: 25px;"></i>
+                    <p style="font-size: 14px; color: white">sign via facbook</p>
+
+                </div>
+            </div>
+            <div class="or">
+                <div class="or-left">
+                    <i class="fa-solid fa-minus"></i>
+                </div>
+                <div class="or-center">Or</div>
+                <div class="or-left">
+                    <i class="fa-solid fa-minus"></i>
+                </div>
+            </div>
+            <div class="form-field" id="form-username">
+                <label for="username"></label>
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="username" id="username" autocapitalize="off" placeholder="username">
+                <i id="enter-username" class="fa-solid fa-asterisk" style="font-size: 8px;color:rgb(199, 190, 177)"></i>
+                <small></small>
+
+            </div>
+            <div class="form-field" id="form-email">
+                <label for="email"></label>
+                <i class="fa-regular fa-envelope"></i>
+                <input type="text" name="email" id="email" autocapitalize="off" placeholder="email@gmail.com">
+                <i id="enter-email" class="fa-solid fa-asterisk"
+                    style="font-size: 8px;color:rgb(199, 190, 177)"></i>
+
+                <small></small>
+
+            </div>
+            <div class="form-field" id="form-phone">
+                <label for="phone"></label>
+                <div class="phone-left">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="text" name="phone" autocapitalize="off" placeholder="phone number">
+
+
+                </div>
+                <div class="phone-right">
+
+                    <select class="type-phone">
+                        <option value="0">+84</option>
+                        <option value="1">+99</option>
+                        <option value="2">+90</option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="form-field" id="form-job">
+                <label for="job"></label>
+                <div class="job-left">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <input type="text" name="job" autocapitalize="on" placeholder="Select job type">
+                </div>
+
+                <div class="job-right">
+                    <select class="type-job">
+                        <option value="0"></option>
+                        <option>Designer</option>
+                        <option>Manager</option>
+                        <option>Accaunting</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-field" id="form-password">
+                <label for="password"></label>
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="password" id="password" autocapitalize="off" placeholder="password">
+                <i id="enter-password" class="fa-solid fa-asterisk" style="font-size: 8px;color:rgb(199, 190, 177)"></i>
+
+                <small></small>
+
+            </div>
+            <div class="form-field" id="form-confirm-password">
+                <label for="confirm-password"></label>
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="confirm-password" id="confirm-password" autocapitalize="off"
+                    placeholder="confirm password">
+                <i id="enter-confirm-password" class="fa-solid fa-asterisk" style="font-size: 8px;color:rgb(199, 190, 177)"></i>
+
+                <small></small>
+            </div>
+            <div class="btn">
+                <button type="submit" value="sign up">sign up </button>
+            </div>
+        </form>
+    </div>
+
+</body>
+<script src="/jquery.js"></script>
+<script src="/index.js"></script>
+
+</html>
