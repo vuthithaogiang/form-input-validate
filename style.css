@@ -35,7 +35,7 @@
 }
 
 .phone-right{
-   margin-left: 40px;
+   margin-left: 50px;
 }
 
 .type-job{
@@ -44,6 +44,10 @@
 
 .type-phone{
     border-radius: 6px;
+}
+
+.job-right{
+    margin-left: 17px;
 }
 
 
@@ -141,6 +145,13 @@ body {
     background-color: #4f70b5;
 
 
+}
+
+#enter-email,
+#enter-username,
+#enter-password,
+#enter-confirm-password{
+    margin-right: 10px;
 }
 
 .or{
