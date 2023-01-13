@@ -75,7 +75,7 @@
 .form-field small{
     position:absolute;
     margin-top: 87px;
-    
+    max-width: 350px;
     
 }
 .form-field input:focus {
@@ -116,7 +116,7 @@ body {
     padding: 1em;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    width: 400px;
+    width: 370px;
     display: flex;
     flex-direction: column;
     

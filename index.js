@@ -29,7 +29,7 @@ const checkUsername = () => {
 
     }
     else if (!isBetween(username.length, min, max)) {
-        showError(usernameEl, 'Username must be between min and max characters');
+        showError(usernameEl, 'Username must be between (min, max) characters');
         formName.style.border = "2px solid red";
 
     }
