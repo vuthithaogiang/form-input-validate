@@ -60,6 +60,10 @@
     padding: 0 5px;
     
 }
+
+.form-field input::after{
+    background-color: white;
+}
 .form-field{
     display: flex;
     flex-direction: row;
